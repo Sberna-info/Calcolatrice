@@ -47,7 +47,7 @@ namespace ClassOperazioni
                 case "4":
                 case "divisone":
                 case "/":
-                    risultato = n1 * n2;
+                    risultato = n1 / n2;
                     Console.WriteLine($"La divisione tra i due numeri è: {risultato}");
                     break;
             }
