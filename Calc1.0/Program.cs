@@ -13,7 +13,7 @@ namespace Calc1._0
         {
             double n1 = ClassOperazioni1.LeggiNumeroDouble();
             double n2 = ClassOperazioni1.LeggiNumeroDouble();
-            double risultato = ClassOperazioni1.DoubleScelta(n1, n2);
+            double? risultato = ClassOperazioni1.DoubleScelta(n1, n2);
             Console.ReadLine();
         }
     }
